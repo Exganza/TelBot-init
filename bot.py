@@ -15,7 +15,7 @@ def send_welcome(message):
 def send_welcome(message):
     pass
 
-
+# Handle normal messages
 @bot.message_handler(func=lambda msg: msg.text is not None)
 def at_bot(message):
     text = message.text
