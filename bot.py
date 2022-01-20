@@ -3,6 +3,7 @@ from telebot import types
 import time
 
 def main_keyboard():
+    # init Replykeyboard
     keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=False, resize_keyboard=True)
     btn1 = types.KeyboardButton("but1")
     btn2 = types.KeyboardButton("but2")
