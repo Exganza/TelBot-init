@@ -1,8 +1,8 @@
 import telebot
 import time
 
-# ضع التوكن هنا
-bot_token = '******************************'
+# API_TOKEN
+bot_token = '*******************************'
 bot = telebot.TeleBot(token=bot_token)
 
 
